@@ -817,7 +817,7 @@ footer > li > .address-contact {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%) scale(1);
-  transition: all 250ms var(--cubic) 250ms;
+  transition: transform 250ms var(--cubic) 250ms;
   padding: 40px;
 }
 
@@ -877,6 +877,9 @@ footer > li > .address-contact {
   font-size: 12px;
   line-height: 1.167;
   letter-spacing: 0.01em;
+}
+
+.modal-form-label:not(:last-of-type) {
   margin-bottom: 10px;
 }
 
@@ -946,7 +949,6 @@ footer > li > .address-contact {
 .modal-form-policy {
   display: flex;
   align-items: center;
-  margin-top: 20px;
   margin-bottom: 30px;
 }
 
@@ -968,6 +970,12 @@ footer > li > .address-contact {
 .modal-form-policy-input:checked + .modal-form-policy::before {
   background-color: var(--accent-color);
   border-color: var(--accent-color);
+}
+
+.modal-form-policy-wrapper {
+  display: inline-block;
+  margin: 0 auto;
+  margin-top: 20px;
 }
 
 .modal-form-input {
