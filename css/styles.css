@@ -883,6 +883,10 @@ footer > li > .address-contact {
   margin-bottom: 10px;
 }
 
+.modal-form-label:last-of-type {
+  margin-bottom: 20px;
+}
+
 .modal-form-title {
   font-style: normal;
   font-weight: 700;
@@ -973,9 +977,8 @@ footer > li > .address-contact {
 }
 
 .modal-form-policy-wrapper {
-  display: inline-block;
-  margin: 0 auto;
-  margin-top: 20px;
+  display: inline-flex;
+  flex-direction: column;
 }
 
 .modal-form-input {
