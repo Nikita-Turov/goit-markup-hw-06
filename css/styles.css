@@ -871,6 +871,7 @@ footer > li > .address-contact {
 }
 
 .modal-form-label {
+  display: block;
   color: var(--primary-color);
   font-style: normal;
   font-weight: 400;
